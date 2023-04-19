@@ -1,0 +1,40 @@
+/* Overview page */
+/* Overview page select box */
+a#companyName {
+  text-decoration: none;
+  transition: color 0.25s;
+}
+
+a#companyName:hover {
+  color: var(--bs-gray-600) !important;
+}
+
+select#companyName:focus-visible {
+  outline: none;
+}
+
+/* textarea sizes */
+#negativesTextArea,
+#positivesTextArea,
+#adviceTextArea,
+#summaryTextArea {
+  height: 100px;
+}
+
+.max-height-300px {
+  max-height: 300px;
+}
+
+.min-height-150px {
+  min-height: 150px;
+}
+
+.material-symbols-outlined {
+  font-variation-settings: "FILL" 1, "wght" 400, "GRAD" 200, "opsz" 20;
+  color: gold;
+}
+
+.chart-container {
+  min-height: 50vh;
+  max-height: 100vh;
+}
